@@ -6,7 +6,7 @@ public class Main extends GWindowEventAdapter{
     /** The graphics window that displays the picture */
     private GWindow window;
 
-    public OceanScene() {
+    public Main() {
         // The graphics window
         this.window = new GWindow("Ocean scene");
         this.window.setExitOnClose();
@@ -31,6 +31,7 @@ public class Main extends GWindowEventAdapter{
 
 
     public static void main(String[] args) {
+        new Main();
 	// write your code here
     }
 }
